@@ -1,0 +1,58 @@
+# =========================
+# Unity generated folders
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# MemoryCaptures (Unity profiling)
+MemoryCaptures/
+
+# =========================
+# IDE (Cursor / VSCode)
+# =========================
+.vscode/
+*.code-workspace
+
+# Rider / JetBrains
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Unity meta handling
+# =========================
+# Keep meta files!
+!*.meta
+
+# =========================
+# Crash reports
+# =========================
+sysinfo.txt
+
+# =========================
+# Addressables
+# =========================
+ServerData/
+
+# =========================
+# Build files
+# =========================
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# =========================
+# Cache
+# =========================
+*.cache
