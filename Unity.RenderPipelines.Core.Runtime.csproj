@@ -172,8 +172,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\RenderGraph\Debug\RenderGraphPlayerRemoteDebugSession.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Vrs\VrsResources.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\RenderGraph\Compiler\CompilerContextData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\RenderGraph\Compiler\NativePassCompiler.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Settings\ShaderStrippingSetting.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\RenderGraph\Compiler\NativePassCompiler.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Utilities\HDROutputUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\XR\XRMirrorView.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\PostProcessing\LensFlareCommonSRP.cs" />
@@ -296,12 +296,12 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Common\ConstantBuffer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Textures\RTHandles.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerField.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Upscaling\DLSSIUpscaler.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Debugging\IVolumeDebugSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Upscaling\DLSSIUpscaler.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerPanel.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Common\GlobalDynamicResolutionSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\STP\STPIUpscaler.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerIndirectFloatField.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\STP\STPIUpscaler.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerRow.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\STP\STP.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@beca2a4be9a2\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerEnumField.cs" />
@@ -964,6 +964,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@d8c07649098d\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
@@ -992,6 +996,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -1000,20 +1008,16 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.IO.Hashing">
-      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">

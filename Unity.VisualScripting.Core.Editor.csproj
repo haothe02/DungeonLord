@@ -65,8 +65,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Acknowledgements\Acknowledgement_DotNetZip.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Canvases\ICanvas.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\WarningLevel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Canvases\ICanvas.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_2_1.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_4_0.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Variables\VariableDeclarationsInspector.cs" />
@@ -115,8 +115,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Exceptions\EditorDebugUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Products\ProductAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\ReloadAssets.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Platforms\ConstructorInfoStubWriter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\SearchUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Platforms\ConstructorInfoStubWriter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Interface\LudiqStyles.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Widgets\WidgetAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Assignment\Assignment.cs" />
@@ -129,14 +129,14 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Reflection\Codebase.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_3_0.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Reflection\MemberOption.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_5.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\MetadataDictionaryAdaptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_5.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\NativeUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Migrations\Migration_1_4_0_f5_to_1_4_0_f6.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Meta\IndexMetadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\Root\LudiqBehaviourEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\NamingSchemePage.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_4_5.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\NamingSchemePage.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Meta\Metadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Descriptors\Descriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\SearchResult.cs" />
@@ -153,8 +153,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Variables\VariableDeclarationInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Migrations\Migration_1_2_4_to_1_3_0.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_1_0.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\Clipboard.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Interface\Colors\ColorPalette.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\Clipboard.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Windows\ICanvasWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugins\PluginMigration.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\VSMigrationUtility.cs" />
@@ -194,8 +194,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Interface\Fuzzy\ExtensibleFuzzyOptionTree.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Analysis\Analysis.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\AssetBundleUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Widgets\Widget.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Interface\Licenses\License.MIT.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Widgets\Widget.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Windows\UpdateWizard\UpdateBackupPage.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Analysis\IAnalyser.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Reflection\LooseAssemblyNameOptionTree.cs" />
@@ -353,9 +353,9 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_3.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\EditorApplicationUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\GraphInspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Analytics\NodeUsageAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Analysis\AnalyserAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Acknowledgements\Acknowledgement_MD4.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Analytics\NodeUsageAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Meta\IndexerMetadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Interface\LudiqGUIUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Analysis\GraphElementAnalysis.cs" />
@@ -363,8 +363,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\ResourceProviders\AssetBundleResourceProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\ReorderableList\ElementAdderMenu\ElementAdderMeta.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Reflection\TypeOptionTree.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Analysis\Analyser.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\Unity\AnimationCurveInspector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Analysis\Analyser.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Canvases\VisualScriptingCanvas.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\ReorderableList\GenericListAdaptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\Primitives\ContinuousNumberDrawer.cs" />
@@ -393,8 +393,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Reflection\LooseAssemblyNameOption.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\InspectorAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\EditorSerializationUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Meta\MemberMetadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\ReorderableList\ElementAdderMenu\ElementAdderMenuBuilder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Meta\MemberMetadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Meta\RootMetadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\BackupUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Interface\Fuzzy\FuzzyOptionTreeExtensionProvider.cs" />
@@ -477,8 +477,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Interface\Dropdowns\DropdownSeparator.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Serialization\MovedFromAttributeExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Windows\Sidebars\Sidebars.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_3_0.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Description\IMachineDescription.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_3_0.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Canvases\CanvasProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Windows\Sidebars\Sidebar.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Windows\Sidebars\SidebarPanel.cs" />
@@ -492,9 +492,9 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Interface\Annotations\AnnotationDisabler.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Windows\AboutWindow\AboutPluginsPage.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\MD4.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\ReorderableList\Internal\SerializedPropertyUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Graph\GraphPointerData.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_4_6.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\ReorderableList\Internal\SerializedPropertyUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Description\GraphDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\Unity\ColorInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Reflection\EnumOptionTree.cs" />
@@ -510,14 +510,14 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\Warning.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\EditorProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugins\PluginAcknowledgement.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\ResourceProviders\IResourceProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Reflection\ParameterStringMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\ResourceProviders\IResourceProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Reflection\EnumOption.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\Other\DictionaryAssetEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Analytics\HotkeyUsageAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Context\GraphContextAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\Special\UnknownInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Platforms\MethodInfoStubWriter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\Special\UnknownInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\ReorderableList\ReorderableListEvents.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\MetadataCollectionAdaptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Analysis\AnalyserProvider.cs" />
@@ -1114,6 +1114,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@d8c07649098d\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
@@ -1142,6 +1146,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -1150,20 +1158,16 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.IO.Hashing">
-      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">

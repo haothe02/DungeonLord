@@ -282,8 +282,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Plugins\Switch\SwitchProControllerHID.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Plugins\OnScreen\OnScreenControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Events\InputEvent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Editor\AssetEditor\InputActionAssetManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Editor\AssetImporter\IInputActionAssetEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Editor\AssetEditor\InputActionAssetManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Plugins\XR\Devices\Oculus.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Controls\DoubleControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Controls\Processors\ScaleVector2Processor.cs" />
@@ -322,8 +322,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Plugins\PlayerInput\PlayerInputManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Editor\UITKAssetEditor\Views\DropManipulator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Utilities\SpriteUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\NativeInputRuntime.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Utilities\SpriteUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Editor\UITKAssetEditor\Views\CollectionViewSelectionChangeFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Editor\UITKAssetEditor\SerializedInputBinding.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Editor\AssetImporter\InputActionCodeGenerator.cs" />
@@ -398,8 +398,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Actions\InputInteractionContext.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Editor\ControlPicker\Layouts\DefaultInputControlPickerLayout.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Plugins\XInput\XInputControllerWindows.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Editor\UITKAssetEditor\InputActionsEditorWindowUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Utilities\CallbackArray.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Editor\UITKAssetEditor\InputActionsEditorWindowUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Editor\PropertyDrawers\InputActionAssetDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Utilities\Observables\Observable.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Controls\InputControlLayoutAttribute.cs" />
@@ -1038,6 +1038,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@d8c07649098d\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
@@ -1066,6 +1070,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -1074,20 +1082,16 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.IO.Hashing">
-      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">

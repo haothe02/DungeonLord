@@ -80,8 +80,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\LightCookieManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Shadow\HDDynamicShadowAtlas.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Shadow\HDShadowCullingUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Reflection\HDAdditionalReflectionData.Legacy.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\HDRenderPipeline.WaterSystem.Wireframe.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Reflection\HDAdditionalReflectionData.Legacy.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Light\HDProcessedVisibleLightsBuilder.LightLoop.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\HDRenderPipelineAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\PostProcessing\Components\PaniniProjection.cs" />
@@ -89,8 +89,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Debug\HDVolumeDebugSettings.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\HDRenderPipelineResources.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Light\HDAdditionalLightData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\PostProcessing\Components\LensDistortion.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\ProbeVolume\ProbeVolumeLighting.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\PostProcessing\Components\LensDistortion.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\Raytracing\HDRenderPipeline.RaytracingRecursiveRenderer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\HDRenderPipeline.Vrs.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\HDRenderPipeline.CloudBackground.cs" />
@@ -116,14 +116,14 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Debug\RayCountManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\GlobalGPUResidentDrawerSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Debug\DebugDisplaySettingsDecal.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\Eye\EyeCausticLUTGen.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\RenderPass\ObjectIDCustomPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\Eye\EyeCausticLUTGen.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\RenderPass\DLSSPass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\HDRenderPipeline.WaterSystem.SimulationCPU.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Reflection\Volume\InfluenceVolume.Migration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\DiffusionProfile\DiffusionProfileSettings.Migration.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\VolumetricClouds\VolumetricCloudsDef.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\DiffusionProfile\DiffusionProfileSettings.Migration.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\RenderPass\MipGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\WaterExcluder.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\Settings\ScalableSettingSchemaId.cs" />
@@ -150,9 +150,9 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\WaterSurface\WaterSurface.Foam.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\SubsurfaceScattering\SubSurfaceScattering.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\HDDynamicResolution.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\ShaderGraphAPI.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\WaterSurface.Migration.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\RenderPass\CustomPass\CustomPassInjectionPoint.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\ShaderGraphAPI.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\HDRenderPipeline.WaterSystem.SimulationCPU.Search.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Debug\ColorPickerDebug.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\WaterSurface\WaterSurface.Simulation.cs" />
@@ -212,21 +212,21 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Sky\PhysicallyBasedSky\ShaderVariablesPhysicallyBasedSky.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\PackageInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Sky\PhysicallyBasedSky\PhysicallyBasedSky.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Debug\DebugOverlay.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Shadow\ContactShadows.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Settings\RenderGraphSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Debug\DebugOverlay.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\RenderPass\CustomPass\CustomPassContext.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\RenderPass\AOV\AOVBuffers.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\RenderPass\AOV\AOVRequestData.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\WaterSystemDef.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Core\CoreResources\GPUCopy.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\RenderPass\AOV\AOVBuffers.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\Settings\RenderPipelineSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\LineRendering\Core\LineRendering.Data.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\PostProcessing\CustomPostProcessing\CustomPostProcessVolumeComponentList.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\ScreenSpaceLighting\BilateralUpsampleDef.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Sky\CloudSystem\CloudLayer\CloudLayerRenderer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\SceneViewDrawMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\Decal\Decal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\SceneViewDrawMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\Settings\CaptureSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\Raytracing\HDTemporalFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\VolumetricLighting\LocalVolumetricFogManager.cs" />
@@ -247,20 +247,20 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\ScreenSpaceLighting\RayMarchingFallbackHierarchy.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\ScreenSpaceLighting\ShaderVariablesScreenSpaceReflection.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\Decal\DecalProjector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Utilities\CameraPositionSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\PostProcessing\Components\ColorAdjustments.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\Lit\BaseLitAPI.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\LTCAreaLight\Generated\LtcData.BRDF_OrenNayar.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\RenderPass\CustomPass\CustomPassVolume.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\PostProcessing\Components\ColorAdjustments.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\LTCAreaLight\Generated\LtcData.BRDF_OrenNayar.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\Lit\BaseLitAPI.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\VFXGraph\Utility\PropertyBinders\HDRPCameraBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Utilities\CameraPositionSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Shadow\HDCachedShadowManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\VolumetricClouds\VolumetricClouds.Migration.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\Raytracing\RayTracingMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Settings\AnalyticDerivativeSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\HDRenderPipeline.SubsurfaceScattering.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Reflection\Volume\ProxyVolume.Migration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Debug\DebugDisplayVirtualTexturing.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\LineRendering\Core\LineRendering.Budgets.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Debug\DebugDisplayVirtualTexturing.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Settings\HDRenderPipelineRuntimeMaterials.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\AtmosphericScattering\ExponentialFog.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\GGXConvolution\IBLFilterGGX.cs" />
@@ -375,8 +375,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\GlobalPostProcessingQualitySettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\HDRenderPipelineAsset.DefaultResources.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\LightLoop\LightLoop.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\HDRenderPipeline.WaterSystem.Simulation.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Compositor\CompositionFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\HDRenderPipeline.WaterSystem.Simulation.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\MRTBufferManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\HDStencilUsage.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\ScreenSpaceLighting\ScreenSpaceReflection.cs" />
@@ -433,15 +433,15 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\Raytracing\RecursiveRendering.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Settings\SpecularFadeSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\VolumetricClouds\HDRenderPipeline.VolumetricCloudsMap.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\ScreenSpaceLighting\ScreenSpaceRefraction.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\LTCAreaLight\BRDF\BRDF_Ward.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\ScreenSpaceLighting\ScreenSpaceRefraction.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\HDRenderPipeline.WaterSystem.Utilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Utilities\CopyFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\AtmosphericScattering\Fog.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Compositor\CompositionProfile.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\LTCAreaLight\Generated\LtcData.BRDF_Ward.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\GlobalLowResolutionTransparencySettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\WaterDecal\Legacy\WaterFoamGenerator.Migration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\LTCAreaLight\Generated\LtcData.BRDF_Ward.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Reflection\Volume\InfluenceVolume.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\VolumetricClouds\HDRenderPipeline.VolumetricCloudsSky.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Reflection\PlanarReflectionProbe.Migration.cs" />
@@ -454,8 +454,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\LTCAreaLight\Generated\LtcData.BRDF_GGX.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\ShaderPass\ShaderPass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Settings\HDRenderPipelineEditorShaders.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\WaterDecal\Legacy\WaterDeformer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Material\DiffusionProfile\DiffusionProfileSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Water\WaterDecal\Legacy\WaterDeformer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Reflection\HDProbe.Migration.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Lighting\Light\HDProcessedVisibleLightsBuilder.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\Raytracing\Shaders\ShaderVariablesRaytracing.cs" />
@@ -482,8 +482,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\Raytracing\HDDiffuseShadowDenoiser.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\RenderPipeline\Camera\HDAdditionalCameraData.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Debug\TransparencyDebug.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Sky\CloudSystem\CloudRenderer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\PostProcessing\Components\Tonemapping.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Sky\CloudSystem\CloudRenderer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Sky\SkyRenderer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Debug\DecalsDebug.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@a6e64e002dfc\Runtime\Debug\MipMapDebug.cs" />
@@ -1615,6 +1615,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@d8c07649098d\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
@@ -1643,6 +1647,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -1651,20 +1659,16 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.IO.Hashing">
-      <HintPath>Library\PackageCache\com.unity.collections@12999e356c23\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">

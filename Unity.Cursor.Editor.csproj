@@ -64,13 +64,7 @@
     <Analyzer Include="C:\Hao_Unity_Tool\Editor\6000.3.13f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Testing\TestResultAdaptor.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Cli.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\VisualStudioCursorInstallation.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Solution.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\SolutionProjectEntry.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\ProcessRunner.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Messaging\MessageType.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\UsageUtility.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\VisualStudioCodiumInstallation.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\SimpleJSON.cs" />
@@ -78,37 +72,43 @@
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Testing\TestRunnerCallbacks.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\AsyncOperation.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\ProjectGeneration\ProjectGeneration.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Messaging\Serializer.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\VisualStudioIntegration.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\VersionPair.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Testing\TestAdaptor.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Messaging\Messenger.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\UnityInstallation.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Image.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\ProjectGeneration\SdkStyleProjectGeneration.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Symbols.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Messaging\ExceptionEventArgs.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Testing\TestStatusAdaptor.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\ProjectGeneration\FileIOProvider.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Messaging\TcpListener.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Discovery.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\ProjectGeneration\LegacyStyleProjectGeneration.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Messaging\UdpSocket.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\ProjectGeneration\AssemblyNameProvider.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\SolutionParser.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Messaging\Deserializer.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Messaging\MessageEventArgs.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\KnownAssemblies.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\ProjectGeneration\GUIDProvider.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\SolutionProperties.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Testing\TestRunnerApiListener.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Messaging\Message.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\ProjectGeneration\ProjectGenerationFlag.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\VisualStudioInstallation.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Testing\TestResultAdaptor.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Cli.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Solution.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\SolutionProjectEntry.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\ProcessRunner.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Messaging\MessageType.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\VisualStudioIntegration.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\VersionPair.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\UnityInstallation.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Testing\TestStatusAdaptor.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Messaging\TcpListener.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Messaging\Deserializer.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\KnownAssemblies.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\ProjectGeneration\GUIDProvider.cs" />
+    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Testing\TestRunnerApiListener.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\VisualStudioEditor.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\Messaging\TcpClient.cs" />
     <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\FileUtility.cs" />
-    <Compile Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\VisualStudioInstallation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb700c\Editor\com.unity.ide.visualstudio.asmdef" />
@@ -672,6 +672,10 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@d8c07649098d\net40\unity-custom\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
